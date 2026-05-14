@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 functionMapping.h - Pharao
 
@@ -27,17 +30,9 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_FUNCTIONMAPPING_H__
-#define __SILICOSIT_PHARAO_FUNCTIONMAPPING_H__
-
-
-
 // General
 #include <vector>
 #include <map>
-
-// OpenBabel
 
 // Pharao
 #include "pharmacophore.h"
@@ -67,7 +62,3 @@ class FunctionMapping
       std::vector<unsigned int> _dbIndex;
       std::map<unsigned int, std::vector<std::vector<unsigned int> > *> _matchMap;
 };
-
-
-
-#endif

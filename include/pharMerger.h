@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 pharMerger.h - Pharao
 
@@ -27,17 +30,9 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_PHARMERGER_H__
-#define __SILICOSIT_PHARAO_PHARMERGER_H__
-
-
-
 // General
 #include <set>
 #include <list>
-
-// OpenBabel
 
 // Pharao
 #include "pharmacophore.h"
@@ -57,8 +52,4 @@ class PharMerger
       PharMerger();
   
       void merge(Pharmacophore& phar);
-  };
-
-
-
-#endif
+};

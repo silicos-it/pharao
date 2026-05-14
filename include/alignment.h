@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 alignment.h - Pharao
 
@@ -27,16 +30,8 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_ALIGNMENT_H__
-#define __SILICOSIT_PHARAO_ALIGNMENT_H__
-
-
-
 // General
 #include <cmath>
-
-// OpenBabel
 
 // Pharao
 #include "siMath.h"
@@ -82,6 +77,3 @@ class Alignment
       double _normalContribution(Coordinate& n1, Coordinate& n2, SiMath::Vector& q); 
 };
 
-
-
-#endif

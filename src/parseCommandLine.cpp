@@ -1,7 +1,7 @@
 /*******************************************************************************
 parseCommandLine.cpp - Pharao
 
-Copyright 2012-2022 by Silicos-it
+Copyright 2012-2023 by Silicos-it
  
 This file is part of Pharao.
 
@@ -18,7 +18,7 @@ This file is part of Pharao.
 	You should have received a copy of the GNU Lesser General Public License
 	along with Pharao.  If not, see <http://www.gnu.org/licenses/>.
 
-Pharao is linked against OpenBabel version 2.
+Pharao is linked against OpenBabel version 3.
 
 	OpenBabel is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by

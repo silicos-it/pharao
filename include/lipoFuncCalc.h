@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 lipoFuncCalc.h - Pharao
 
@@ -27,12 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_LIPOFUNCCALC_H__
-#define __SILICOSIT_PHARAO_LIPOFUNCCALC_H__
-
-
-
 // General
 #include <set>
 #include <list>
@@ -55,6 +52,3 @@ double                        _lipoCalcAccSurf(OpenBabel::OBAtom*);
 void                          _lipoGroupAtoms(OpenBabel::OBMol*, Pharmacophore*);
 std::list<OpenBabel::OBAtom*> _lipoGetNeighbors(OpenBabel::OBAtom*);
 void                          _lipoLabelNeighbors(OpenBabel::OBAtom*, double);
-
-
-#endif

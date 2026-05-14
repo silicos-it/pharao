@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 coordinate.h - Pharao
 
@@ -27,18 +30,8 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_COORDINATE_H__
-#define __SILICOSIT_PHARAO_COORDINATE_H__
-
-
-
 // General
 #include <iostream>
-
-// OpenBabel
-
-// Pharao
 
 
 
@@ -57,7 +50,3 @@ class Coordinate
 
 
 std::ostream& operator<< (std::ostream&, const Coordinate&);
-
-
-
-#endif

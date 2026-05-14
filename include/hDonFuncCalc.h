@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 hDonFuncCalc.h - Pharao
 
@@ -27,12 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_HDONFUNCCALC_H__
-#define __SILICOSIT_PHARAO_HDONFUNCCALC_H__
-
-
-
 // General
 #include <vector>
 #include <list>
@@ -51,6 +48,3 @@ Pharao is linked against OpenBabel version 2.
 void                             hDonFuncCalc(OpenBabel::OBMol*, Pharmacophore*);
 Coordinate                       _hDonCalcNormal(OpenBabel::OBAtom*);
 
-
-
-#endif

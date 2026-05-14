@@ -4,12 +4,12 @@ cmake_minimum_required (VERSION 2.6)
 project (pharao)
 
 set (CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/modules)
-find_package (OpenBabel2 REQUIRED)
+find_package (OpenBabel3 REQUIRED)
 
 # Version
 set (VERSION_MAJOR 1)
 set (VERSION_MINOR 0)
-set (VERSION_PATCH 4)
+set (VERSION_PATCH 5)
 file (WRITE  ${PROJECT_SOURCE_DIR}/include/config.h "#define PHARAO_VERSION ${VERSION_MAJOR}\n")
 file (APPEND ${PROJECT_SOURCE_DIR}/include/config.h "#define PHARAO_RELEASE ${VERSION_MINOR}\n")
 file (APPEND ${PROJECT_SOURCE_DIR}/include/config.h "#define PHARAO_SUBRELEASE ${VERSION_PATCH}\n")
@@ -26,7 +26,7 @@ include_directories (${OPENBABEL2_INCLUDE_DIRS})
 
 # Executables
 add_executable (${PROJECT_NAME} ${sourcefiles})
-target_link_libraries (${PROJECT_NAME} ${OPENBABEL2_LIBRARIES})
+target_link_libraries (${PROJECT_NAME} ${OPENBABEL3_LIBRARIES})
 install (TARGETS ${PROJECT_NAME} DESTINATION bin)
 message ("Installation directory of executable: ${CMAKE_INSTALL_PREFIX}/bin")
 

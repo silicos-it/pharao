@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 utilities.h - Pharao
 
@@ -26,14 +29,6 @@ Pharao is linked against OpenBabel version 2.
 
 ***********************************************************************/
 
-
-
-#ifndef __SILICOSIT_PHARAO_UTILITIES_H__
-#define __SILICOSIT_PHARAO_UTILITIES_H__
-
-
-
-// General
 
 // OpenBabel
 #include "openbabel/mol.h"
@@ -70,8 +65,3 @@ void positionPharmacophore(Pharmacophore& pharm, SiMath::Matrix& U, SolutionInfo
 
 void TransformMolecule(OpenBabel::OBMol* m, SiMath::Matrix& U, Coordinate& center1, Coordinate& center2);
 void positionMolecule(OpenBabel::OBMol* m, SiMath::Matrix& U, SolutionInfo& s);
-		
-
-
-#endif
-

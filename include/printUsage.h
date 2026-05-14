@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 printUsage.h - Pharao
 
@@ -27,16 +30,8 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_PRINTUSAGE_H__
-#define __SILICOSIT_PHARAO_PRINTUSAGE_H__
-
-
-
 // General
 #include <iostream>
-
-// OpenBabel
 
 // Pharao
 #include "printHeader.h"
@@ -44,7 +39,3 @@ Pharao is linked against OpenBabel version 2.
 
 
 void printUsage(void); 
-
-
-
-#endif

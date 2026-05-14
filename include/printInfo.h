@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 printInfo.h - Pharao
 
@@ -27,12 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_PRINTINFO_H__
-#define __SILICOSIT_PHARAO_PRINTINFO_H__
-
-
-
 // General
 #include <iostream>
 #include <stdlib.h>
@@ -46,7 +43,3 @@ Pharao is linked against OpenBabel version 2.
 
 
 void printInfo(const std::string&); 
-
-
-
-#endif

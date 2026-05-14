@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 result.h - Pharao
 
@@ -25,12 +28,6 @@ Pharao is linked against OpenBabel version 2.
 	the Free Software Foundation version 2 of the License.
 
 ***********************************************************************/
-
-
-
-#ifndef __SILICOSIT_PHARAO_RESULT_H__
-#define __SILICOSIT_PHARAO_RESULT_H__
-
 
 
 // General
@@ -69,7 +66,3 @@ class Result
       
       Result(void);
 };
-
-
-
-#endif

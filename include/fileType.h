@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 fileType.h - Pharao
 
@@ -28,11 +31,6 @@ Pharao is linked against OpenBabel version 2.
 
 
 
-#ifndef __SILICOSIT_PHARAO_FILETYPE_H__
-#define __SILICOSIT_PHARAO_FILETYPE_H__
-
-
-
 enum FileType 
 {
 	MOL,
@@ -40,7 +38,3 @@ enum FileType
 	GZIP,
 	UNKNOWN
 };
-
-
-
-#endif

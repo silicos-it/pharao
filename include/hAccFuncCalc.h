@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 hAccFuncCalc.h - Pharao
 
@@ -27,12 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_HACCFUNCCALC_H__
-#define __SILICOSIT_PHARAO_HACCFUNCCALC_H__
-
-
-
 // General
 #include <vector>
 #include <list>
@@ -54,5 +51,3 @@ double                           _hAccCalcAccSurf(OpenBabel::OBAtom*);
 std::list<OpenBabel::OBAtom*>    _hAccGetNeighbors(OpenBabel::OBAtom*);
 Coordinate                       _hAccCalcNormal(OpenBabel::OBAtom*);
 bool                             _hAccDelocalized(OpenBabel::OBAtom*);
-
-#endif

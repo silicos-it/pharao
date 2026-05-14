@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 chargeFuncCalc.h - Pharao
 
@@ -27,14 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_CHARGEFUNCCALC_H__
-#define __SILICOSIT_PHARAO_CHARGEFUNCCALC_H__
-
-
-
-// General
-
 // OpenBabel
 #include <openbabel/mol.h>
 
@@ -44,7 +39,3 @@ Pharao is linked against OpenBabel version 2.
 
 
 void chargeFuncCalc(OpenBabel::OBMol*, Pharmacophore*);
-
-
-
-#endif

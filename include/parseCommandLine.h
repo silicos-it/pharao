@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 parseCommandLine.h - Pharao
 
@@ -27,12 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_PARSECOMMANDLINE_H__
-#define __SILICOSIT_PHARAO_PARSECOMMANDLINE_H__
-
-
-
 // General
 #include <list>
 #include <getopt.h>
@@ -52,8 +49,3 @@ Pharao is linked against OpenBabel version 2.
 
 
 Options parseCommandLine(int argc, char* argv[]);
-
-
-
-
-#endif

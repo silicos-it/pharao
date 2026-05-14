@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 logScores.h - Pharao
 
@@ -28,16 +31,9 @@ Pharao is linked against OpenBabel version 2.
 
 
 
-#ifndef __SILICOSIT_PHARAO_LOGSCORES_H__
-#define __SILICOSIT_PHARAO_LOGSCORES_H__
-
-
-
 // General
 #include <iostream>
 #include <iomanip>
-
-// OpenBabel
 
 // Pharao
 #include "result.h"
@@ -46,7 +42,3 @@ Pharao is linked against OpenBabel version 2.
 
 
 void logScores(Result*, Options&);
-
-
-
-#endif

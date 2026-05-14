@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 defines.h - Pharao
 
@@ -25,12 +28,6 @@ Pharao is linked against OpenBabel version 2.
 	the Free Software Foundation version 2 of the License.
 
 ***********************************************************************/
-
-
-
-#ifndef __SILICOSIT_DEFINES_H__
-#define __SILICOSIT_DEFINES_H__
-
 
 
 #define ROUND(x)      ((int) ((x) + 0.5))
@@ -86,6 +83,3 @@ Pharao is linked against OpenBabel version 2.
 template <class T> inline T min(T x,T y) { return (x<y)?x:y; }
 template <class T> inline T max(T x,T y) { return (x>y)?x:y; }
 template <class T> inline T sign(const T & a, const T & b ) {return (b >= 0.0) ? ( a>=0 ? a : -a) : (a>=0 ? -a : a);}
-
-
-#endif

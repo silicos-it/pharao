@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 siMath.h - Pharao
 
@@ -27,39 +30,17 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_SIMATH_H__
-#define __SILICOSIT_PHARAO_SIMATH_H__
-
 // General
 #include <vector>
 #include <math.h>
 
-// OpenBabel
-
 // Pharao
 #include "defines.h"
 
-/*
-#ifndef min
-	template <class T> inline T min(T x,T y) { return (x<y)?x:y; }
-#endif
-
-#ifndef max
-	template <class T> inline T max(T x,T y) { return (x>y)?x:y; }
-#endif
-
-#ifndef sign
-	template <class T> inline T sign(const T & a, const T & b ) {return (b >= 0.0) ? ( a>=0 ? a : -a) : (a>=0 ? -a : a);}
-#endif
-*/
 
 
 namespace SiMath
 {
-
-
-
 
 inline double triangle(const double & a, const double & b )
 {
@@ -243,7 +224,3 @@ class SVD
       
 
 }; // end of namespace SiMath
-
-
-
-#endif

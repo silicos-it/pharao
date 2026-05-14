@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 rankType.h - Pharao
 
@@ -27,19 +30,9 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_RANKTYPE_H__
-#define __SILICOSIT_PHARAO_RANKTYPE_H__
-
-
-
 enum RankType 
 {
    TANIMOTO,
    TVERSKY_REF,
    TVERSKY_DB
 };
-
-
-
-#endif

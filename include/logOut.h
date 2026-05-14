@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 logOut.h - Pharao
 
@@ -27,12 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_LOGOUT_H__
-#define __SILICOSIT_PHARAO_LOGOUT_H__
-
-
-
 // General
 #include <iostream>
 #include <sstream>
@@ -47,7 +44,3 @@ Pharao is linked against OpenBabel version 2.
 
 
 void logOut(Result*, Options&);
-
-
-
-#endif

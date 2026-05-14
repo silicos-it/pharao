@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 compScore.h - Pharao
  
@@ -27,16 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_COMPSCORE_H__
-#define __SILICOSIT_PHARAO_COMPSCORE_H__
-
-
-
-// General
-
-// OpenBabel
-
 // Pharao
 #include "result.h"
 
@@ -47,7 +40,3 @@ class CompScore
    public:
       bool operator()(const Result*, const Result*);
 };
-
-
-
-#endif

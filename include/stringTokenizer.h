@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 stringTokenizer.h - Pharao
 
@@ -27,12 +30,7 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_STRINGTOKENIZER_H__
-#define __SILICOSIT_PHARAO_STRINGTOKENIZER_H__
-
-
-
+// General
 #include <string>
 #include <list>
 #include <iostream>
@@ -42,7 +40,3 @@ Pharao is linked against OpenBabel version 2.
 
 
 std::list<std::string>  stringTokenizer(const std::string&, const std::string&);
-
-
-
-#endif

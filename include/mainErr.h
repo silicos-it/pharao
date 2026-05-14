@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 mainErr.h - Pharao
 
@@ -27,26 +30,11 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_MAINERR_H__
-#define __SILICOSIT_PHARAO_MAINERR_H__
-
-
-
-
 // General
 #include <string>
 #include <stdlib.h>
 #include <iostream>
 
-// OpenBabel
-
-// Pharao
-
 
 
 void mainErr(const std::string&);
-
-
-
-#endif

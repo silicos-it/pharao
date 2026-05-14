@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 logPharmacophores.h - Pharao
 
@@ -27,16 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_LOGPHARMACOPHORES_H__
-#define __SILICOSIT_PHARAO_LOGPHARMACOPHORES_H__
-
-
-
-// General
-
-// OpenBabel
-
 // Pharao
 #include "result.h"
 #include "options.h"
@@ -44,7 +37,3 @@ Pharao is linked against OpenBabel version 2.
 
 
 void logPharmacophores(Result*, Options&);
-
-
-
-#endif

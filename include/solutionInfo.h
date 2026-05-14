@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 solutionInfo.h - Pharao
 
@@ -27,16 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_SOLUTIONINFO_H__
-#define __SILICOSIT_PHARAO_SOLUTIONINFO_H__
-
-
-
-// General
-
-// OpenBabel
-
 // Pharao
 #include "coordinate.h"
 #include "siMath.h"
@@ -58,7 +51,3 @@ class SolutionInfo
 		SolutionInfo(void);
       ~SolutionInfo(void);
 };
-
-
-
-#endif

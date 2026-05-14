@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 printProgress.h - Pharao
 
@@ -27,23 +30,9 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_PRINTPROGRESS_H__
-#define __SILICOSIT_PHARAO_PRINTPROGRESS_H__
-
-
-
 // General
 #include <iostream>
-
-// OpenBabel
-
-// Pharao
 
 
 
 void printProgress(int);
-
-
-
-#endif

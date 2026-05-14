@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 pharmacophore.h - Pharao
 
@@ -27,12 +30,6 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_PHARMACOPHORE_H__
-#define __SILICOSIT_PHARAO_PHARMACOPHORE_H__
-
-
-
 // General
 #include <string>
 #include <iostream>
@@ -41,8 +38,6 @@ Pharao is linked against OpenBabel version 2.
 #include <vector>
 #include <list>
 #include <map>
-
-// OpenBabel
 
 // Pharao
 #include "coordinate.h"
@@ -163,7 +158,3 @@ class PharmacophoreWriter
       
       void write(Pharmacophore&, std::ofstream*, const std::string&);
 };
-	
-
-
-#endif

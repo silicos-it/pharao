@@ -1,3 +1,6 @@
+#pragma once
+
+
 /*******************************************************************************
 mainWar.h - Pharao
 
@@ -27,25 +30,10 @@ Pharao is linked against OpenBabel version 2.
 ***********************************************************************/
 
 
-
-#ifndef __SILICOSIT_PHARAO_MAINWAR_H__
-#define __SILICOSIT_PHARAO_MAINWAR_H__
-
-
-
-
 // General
 #include <string>
 #include <iostream>
 
-// OpenBabel
-
-// Pharao
-
 
 
 void mainWar(const std::string&);
-
-
-
-#endif
